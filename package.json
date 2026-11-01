@@ -1,0 +1,46 @@
+{
+  "name": "image-stack",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Compare unlimited image variations in one fixed frame with a shared rectangle or lasso crop. WebP, clipboard paste, local-first.",
+  "keywords": [
+    "image-comparison",
+    "compare-images",
+    "image-stack",
+    "overlay-images",
+    "onion-skin",
+    "webp",
+    "clipboard",
+    "crop",
+    "design-tools",
+    "ai-images",
+    "local-first",
+    "typescript",
+    "vite"
+  ],
+  "author": "Ahmet Dedeler",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ahmet-Dedeler/image-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ahmet-Dedeler/image-stack/issues"
+  },
+  "homepage": "https://ahmet-dedeler.github.io/image-stack/",
+  "type": "module",
+  "packageManager": "pnpm@12.16.1",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}
